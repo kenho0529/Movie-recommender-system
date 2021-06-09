@@ -7,7 +7,7 @@ This is to build a hybrid movie recommendation system, which has combined the co
 ## Data Download
 I have used the data of rotton tomatoes from Kaggle.
 Original Data:
-[Kaggle]('https://www.kaggle.com/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset')
+[Kaggle](https://www.kaggle.com/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset)
 
-Preprocessed Data and pickled model result:
-(Please download whole file before running the model)
+Preprocessed Data and pickled model result (Please download whole file before running the model)/:
+Drive
