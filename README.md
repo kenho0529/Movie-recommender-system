@@ -6,10 +6,13 @@ This is to build a hybrid movie recommendation system, which has combined the co
 
 ![Flowchart](/images/flowchart.png)
 
-## Data Download
+## Data
 I have used the data of rotton tomatoes from Kaggle.  
 Original Data:  
 [Kaggle](https://www.kaggle.com/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset)
 
 Preprocessed Data and pickled model result (Please download whole file before running the model):  
 Drive
+
+## How to run
+Download the whole file and run movie_model.py.
