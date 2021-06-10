@@ -15,4 +15,12 @@ Preprocessed Data and pickled model result (Please download whole file before ru
 Drive
 
 ## How to run
-Download the whole file and run movie_model.py.
+1. Download the whole file and preprocessed data
+2. Run movie_model.py.
+
+## Packages required
+- Numpy
+- Pandas
+- Gensim
+- Scipy
+- Pickle
