@@ -11,6 +11,7 @@ I have used the data of rotton tomatoes from Kaggle.
 Original Data:  
 [Kaggle](https://www.kaggle.com/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset)
 
+The reviews and movie database are preprossed. The reviews DB is tokenized and lemmatized. Since it takes extremely long for lemmatization, the process is done before. A lemmatized database can be found below.
 Preprocessed Data and pickled model result (Please download whole file before running the model):  
 Drive
 
