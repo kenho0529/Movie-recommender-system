@@ -17,7 +17,7 @@ The reviews and movie database are preprossed. The reviews DB is tokenized and l
 1. Download the whole file and unzipped the data in data file.
 2. Run cosine_matrix.py to get the cosine similarity matrix for saving time.
 3. Place the cosine pickle to data file.
-4. Run movie_model.py.
+4. Run movie_rs.py.
 
 ## Packages required
 - Numpy
