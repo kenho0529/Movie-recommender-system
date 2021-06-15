@@ -110,5 +110,9 @@ class movie_RS():
             print('No records in our database. Please check your input')
 
 
-    if __name__ == '__main__':
-        movie_RS()
+x=input('Please select your movie:')
+def movie(movie):
+    print(movie_RS(movie).recommend())
+
+movie(x)
+
