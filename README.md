@@ -19,9 +19,14 @@ The reviews and movie database are preprossed. The reviews DB is tokenized and l
 3. Place the cosine pickle to data file.
 4. Run movie_rs.py.
 
+## Web App Version
+The recommendation system is deployed on a simple Flask web app. Run route.py and get the local url. It should be in a format of http://127.0.0.1:5000/.
+
+
 ## Packages required
 - Numpy
 - Pandas
 - Gensim
 - Scipy
 - Pickle
+- -Flask
