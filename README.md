@@ -23,8 +23,9 @@ The reviews and movie database are preprossed. The reviews DB is tokenized and l
 The recommendation system is deployed on a simple Flask web app.  
 Run route.py and get the local url, which is in a format of http://127.0.0.1:5000/.  
 
-![Web_home](/images/web_app_home.png)
-<img src="/images/web_app_home.png" width="100" height="100">
+<img src="/images/web_app_home.png" width="300" height="300">
+
+<img src="/images/web_app_recommend.png" width="300" height="300">
 
 ## Packages required
 - Numpy
