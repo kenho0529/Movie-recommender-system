@@ -20,8 +20,10 @@ The reviews and movie database are preprossed. The reviews DB is tokenized and l
 4. Run movie_rs.py.
 
 ## Web App Version
-The recommendation system is deployed on a simple Flask web app. Run route.py and get the local url. It should be in a format of http://127.0.0.1:5000/.
+The recommendation system is deployed on a simple Flask web app.  
+Run route.py and get the local url, which is in a format of http://127.0.0.1:5000/.  
 
+![Web_home](/images/web_app_home.png)
 
 ## Packages required
 - Numpy
