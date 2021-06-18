@@ -100,19 +100,24 @@ class movie_RS():
             #recommend=df_new.iloc[weight_movie_indices]
             #return df_new.iloc[weight_movie_indices[0:10]][['movie_title','actors','audience_rating']]
             print('=====================')
+            result=[]
             for i in range(n):
                 recommend_movie=recommend.iloc[i]['movie_title']
                 movie_year=recommend.iloc[i]['year']
-                print(f"{i+1}. {recommend_movie}, {movie_year}")
+                #print(f"{i+1}. {recommend_movie}, {movie_year}")
+                result.append(recommend_movie)
+            return result
             #return recommend['movie_title'].head(n)
             
         else:
-            print('No records in our database. Please check your input')
+            x='Unknown'
+            return x
+            #print('No records in our database. Please check your input')
 
 
-x=input('Please select your movie:')
-def movie(movie):
-    print(movie_RS(movie).recommend())
+#x=input('Please select your movie:')
+#def movie(movie):
+#    print(movie_RS(movie).recommend())
 
-movie(x)
+#movie(x)
 
