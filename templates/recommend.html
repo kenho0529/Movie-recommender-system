@@ -13,24 +13,31 @@
     
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
 
+    <h1> Recommendations </h1>
     
-    <p class="h3" style="color: blue;">Recommendation</p>
 
 </head>
 
 <body>
     <div>
-        {% for i in range(0,6) %}
+        {% if movies %}
+            {% for i in range(0,6) %}
 
-            <li> {{ movies[i] }} </li>
+                <!--<li> {{ movies[i] }} </li>-->
+                {% if movies[i] %}
+                    <img src={{movie_url[i] }} style="width:200px;height:300px;"/>
+                {%else%}
+                    <img src="C:\Users\Asus\Documents\VS_repo\movies_RS\templates\default2.jpg" style="width:200px;height:300px;"/>
+                {% endif %}
+            {% endfor %}
 
-        {% endfor %}
+        {% else %}
+            <br>
+            <small> Unknown movie.  
+            Please check your spellings. </small>
 
+        {% endif %}
 
-
-
-
-            
     </div>
 
     <br>

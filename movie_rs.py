@@ -107,17 +107,18 @@ class movie_RS():
                 #print(f"{i+1}. {recommend_movie}, {movie_year}")
                 result.append(recommend_movie)
             return result
-            #return recommend['movie_title'].head(n)
+
             
         else:
-            x='Unknown'
-            return x
+            result=False
+            return result
             #print('No records in our database. Please check your input')
 
 
-#x=input('Please select your movie:')
-#def movie(movie):
-#    print(movie_RS(movie).recommend())
+'''x=input('Please select your movie:')
+def movie(movie):
+    print(movie_RS(movie).recommend())
 
-#movie(x)
+movie(x)
+'''
 
