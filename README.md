@@ -16,8 +16,7 @@ The reviews and movie database are preprossed. The reviews DB is tokenized and l
 ## How to run
 1. Download the whole file and unzipped the data in data file.
 2. Run cosine_matrix.py to get the cosine similarity matrix for saving time.
-3. Place the cosine pickle to data file.
-4. Run movie_rs.py.
+3. Run movie_rs.py.
 
 ## Web App Version
 The recommendation system is deployed on a simple Flask web app.  
