@@ -22,6 +22,7 @@ The reviews and movie database are preprossed. The reviews DB is tokenized and l
 The recommendation system is deployed on a simple Flask web app.  
 Run route.py and get the local url, which is in a format of http://127.0.0.1:5000/.  
 
+The poster is from themoviedb API and IMDb movie ID is obtained from IMDB library.  
 <img src="/images/web_app_home.png" width="500" height="300">
 
 <img src="/images/web_app_recommend.png" width="500" height="300">
@@ -32,4 +33,5 @@ Run route.py and get the local url, which is in a format of http://127.0.0.1:500
 - Gensim
 - Scipy
 - Pickle
-- -Flask
+- Flask
+- IMDbPY
